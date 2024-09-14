@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", "Ubuntu", sans-serif;
+}
+body {
+  background-color: black;
+
+  /* font-family: "Ubuntu", sans-serif;
+        font-weight: 1000;
+    
+        font-size: 48px;
+        color: rgb(255, 255, 255); */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  height: 90vh;
+  position: relative;
+  background-image: url("assets/images/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1300px, 100vw);
+}
+
+.main .box {
+  width: 100%;
+  height: 90vh;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  /* background-color: rgba(0, 0, 0, 0.048); */
+  margin: auto;
+  width: 76vw;
+  /* background-color: aqua; */
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > span > img {
+  margin-top: 15px;
+  width: 150px;
+  height: 40px;
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: rgb(255, 255, 255);
+  gap: 15px;
+  padding: 1px;
+}
+
+.first {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: normal;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.second {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: normal;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.third {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  font-weight: 650;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  font-family: "Segoe UI", "Ubuntu", sans-serif;
+  /* display: flex;
+    gap: 1vw; */
+  /* height: 30px; */
+  /* width: 0px; */
+}
+
+.btn-red {
+  background-color: #e50914;
+  font-size: 24px;
+  /* width: 15vw;
+  height: 7vh; */
+
+  padding: 15.2px 17px 15.2px 17px;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  gap: 13px;
+}
+
+.btn-red-sm {
+  background-color: #e50914;
+  font-size: 14px;
+  padding: 0.5px 15px;
+  height: 30px;
+  width: 80px;
+  /* margin: 5px 0px 7px 0px; */
+  /* display: flex; */
+}
+
+.btn-black-sm {
+  background-color: rgba(0, 0, 0, 0.356);
+  font-size: 14px;
+  padding: 3.5px 7px;
+  /* margin: 5px 0px 7px 0px; */
+  border: solid 0.1px rgba(255, 255, 255, 0.445);
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  height: 30px;
+  width: 118px;
+  align-items: center;
+  /* padding: 2px; */
+}
+.btns {
+  display: flex;
+  position: relative;
+  z-index: 10;
+  align-content: center;
+  gap: 22px;
+}
+
+input {
+  /* width: 25vw; */
+  /* height: 7vh; */
+  padding: 15.2px 175px 15.2px 17px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.356);
+  color: rgb(255, 255, 255);
+  border: solid 0.1px rgba(255, 255, 255, 0.445);
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+.sepretion {
+  height: 8px;
+  background-color: #232323;
+}
+
+.icons-pd {
+  padding-top: 5px;
+}
+
+.mail > span > svg {
+  padding-top: 5px;
+}
+
+.crsr {
+  cursor: pointer;
+}
+
+/* -------end of main---------- */
+
+/* ----------tv-section starts------------ */
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 200px 70px 200px;
+}
+
+/* .img-tv>img{
+  width: 560px;
+  position: relative;
+  z-index: 10;
+}
+
+.img-tv>video{
+  right: 80px;
+  top: 88px;
+  width: 406px;
+  position: absolute;
+
+} */
+
+/* or  */
+
+.img-tv {
+  margin: 0 auto;
+  position: relative;
+}
+.img-tv > img {
+  width: 560px;
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+
+.img-tv > video {
+  width: 406px;
+  position: absolute;
+  top: 89px;
+  left: 74px;
+}
+
+.first {
+  text-align: left;
+}
+.second {
+  top: 5px;
+  text-align: left;
+}
+/* ----------tv-section ends------------ */
+
+/* -----------phone-section-starts--------- */
+
+.section_two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 200px 70px 200px;
+}
+.phone {
+  position: relative;
+}
+.phone > img {
+  width: 570px;
+  height: 420px;
+}
+.boxx {
+  background-color: black;
+  border: solid 0.1px rgba(255, 255, 255, 0.445);
+  width: 310px;
+  height: 100px;
+  border-radius: 15px;
+  position: absolute;
+  left: 130px;
+  top: 290px;
+}
+
+.boxx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* align-content: space-between; */
+}
+.box-img > img {
+  width: 60px;
+}
+
+.box-txt {
+  color: rgb(255, 255, 255);
+}
+.box-txt-blue {
+  color: #006de3;
+}
+
+.box-gif > img {
+  width: 50px;
+}
+/* -----------phone-section-Ends--------- */
+
+/* -----------mac-section-starts--------- */
+
+.mac {
+  position: relative;
+  margin: 0 auto;
+}
+.mac img {
+  width: 570px;
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+.mac > video {
+  position: absolute;
+  bottom: 174px;
+  width: 374px;
+  left: 97px;
+}
+
+/* -----------mac-section-Ends--------- */
+
+/* -----------F&Q-section-Starts--------- */
+
+.fnq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.fnq-box {
+  margin: 30px auto;
+}
+
+.qus {
+  width: 80vw;
+  height: 85px;
+  background-color: #2d2d2d;
+  margin-top: 10px;
+  align-content: center;
+}
+.cont {
+  margin: auto 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.qus:hover {
+  background-color: #414141;
+  transition-duration: 0.5s;
+}
+.qus-txt {
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+/* -----------F&Q-section-Ends--------- */
+/* .footer {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 8vh 10vw;
+} */
+.ul {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* .footer-items {
+  margin-top: 15px;
+  display: flex;
+  gap: 15vw;
+} */
